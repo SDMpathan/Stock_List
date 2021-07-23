@@ -28,7 +28,7 @@ export default class App extends Component<IProps,IState>{
 
     componentDidMount(){
       let config = { 'X-CoinAPI-Key': 'F0781C86-ADBC-449D-8245-53711390EEE7' };
-      axios.get(`http://rest.coinapi.io/v1/assets`,{ headers: config }).then((posRes)=>{
+      axios.get(`https://rest.coinapi.io/v1/assets`,{ headers: config }).then((posRes)=>{
         this.setState({
           res:posRes.data
         })
