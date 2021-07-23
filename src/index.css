@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+table{
+  text-align: center;
+  justify-content: auto;
+  width: 60%;
+  height: auto;
+  border: 1px gray solid;
+  margin: auto;
+  border-radius: 1vw;
+  border-spacing: 0px!important;
+  scroll-behavior: smooth;
+}
+
+input{
+  background-color: #fcdff1;
+  width: 10vw;
+  border: 2px solid white;
+  border-radius: 0.5vw;
+  padding: 5px 5px;  
+}
+
+button.view{
+  background-color: blueviolet;
+  border: 0 solid white;
+  border-radius: 8px;
+  width: 60px;
+  height: 25px;
+  color: white;
+}
+
+tr{
+  height: 10px;
+}
+
+td{
+  height: 50px;
+  width: 20% !important;
+}
+
+td.rowhead{
+  font-size: 15px;
+  padding-left: 5px;
+  column-span: 2;
+}
+
+.rowtop{
+  height: 50px;
+  background-color: #fcdff1 ;
+}
+
+.header{
+  display: flex;
+  background-color: rgb(33, 33, 94);
+  width: auto;
+  height: 3.5vw;
+  margin-bottom: 2vw;
+  align-items: center;
+  padding: 1vw;
+}
+
+.hQuiki{
+  margin-left: 5vw;
+  margin-top: -1vw;
+  font-size: 2.5vw;
+  color: aqua;
+}
+
+.hApp{
+  font-size: 1.3vw;
+  margin-left: -3vw;
+  margin-top: 2.5vw;
+}
+
+.card{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-bottom: 2vw;  
+}
+
+.cardOne{  
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 5vw;
+  padding: 10px;
+  height: 12vw;
+  width: 18vw;
+  background-color: rgba(194, 169, 169, 0.459);
+}
+
+.text1{
+  padding-top: 1vw;
+  font-size: 1.5vw;
+  font-weight:500;
+}
+
+.two,.one,.thr{
+  font-size: 2vw;
+  font-weight: bold;
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.cardTwo{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 3vw;
+  padding: 10px;
+  height: 12vw;
+  width: 18vw;
+  background-color: rgba(194, 169, 169, 0.459);
+}
+
+
+.cardThree{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 6vw;
+  padding: 10px;
+  height: 12vw;
+  width: 18vw;
+  background-color: rgba(194, 169, 169, 0.459);
+}
+
+img{
+  height: 5vw;
+  width: 5vw;  
+}
+button.sym{
+  background: rgba(128, 128, 128, 0.534) ;
+  color: rgb(12, 12, 204);
+  border: none;
+  border-radius: 1vw;
+}
+.sym:before{
+  content: "\25CF";
+}
